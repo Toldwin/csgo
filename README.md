@@ -3,7 +3,7 @@ Docker Image of CSGO Dedicated Server based on ubuntu.<br>Rcon password can be s
 
 Default rcon : toldrcon 
 
-/!\ If the server is not uptodate, just update the variable "ENV REFRESH_DATE 2018-05-02" with current date and rebuild the image. You can push a pull request, I will accept it and the Docker hook will auto-rebuild the image within an hour.
+/!\ If the server is not uptodate, just update the variable "ENV REFRESH_DATE 2018-05-02" with the current date and rebuild the image. You can push a pull request, I will accept it and the Docker hook will auto-rebuild the image within an hour...
 
 ## Dedicated server is launched with the command
 sudo docker run -p  27015:27015 -p 27015:27015/udp -it toldwin/csgo
