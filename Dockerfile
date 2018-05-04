@@ -42,6 +42,7 @@ CMD ./srcds_run \
   -game csgo \ 
   -console \ 
   -usercon \
+  -tickrate 128 \
   +game_type $GAME_TYPE \ 
   +game_mode $GAME_MODE \ 
   +mapgroup $MAP_GROUP \ 
