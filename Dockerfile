@@ -1,7 +1,7 @@
 FROM ubuntu 
 MAINTAINER Toldwin <toldwin@gmail.com> 
 
-ENV REFRESH_DATE=2018/11/02
+ENV REFRESH_DATE=2018/11/27
 
 # lib32gcc1 installation 
 RUN \ 
